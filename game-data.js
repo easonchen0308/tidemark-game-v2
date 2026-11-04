@@ -243,7 +243,7 @@ window.TIDEMARK_GAME = {
       "id": 3,
       "questType": "main",
       "chapter": "M02",
-      "name": "神奇的白帶魚",
+      "name": "飛魚卵之謎",
       "dependsOn": 2,
       "stars": 2,
       "radar": [
