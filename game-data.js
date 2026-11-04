@@ -1,5 +1,5 @@
 window.TIDEMARK_GAME = {
-  "version": "2026-09-22",
+  "version": "2026-09-22-roe-v1",
   "slug": "yuchao",
   "name": "絕對傳奇：漁潮試煉",
   "config": {
@@ -255,55 +255,36 @@ window.TIDEMARK_GAME = {
         2
       ],
       "story": [
-        "下一個調查對象沒有暗號。\n它的線索全部留在自己的身體上，不要只記住它叫什麼。\n注意：牠長什麼樣、如何被處理，以及最後進入了誰的生活。",
-        "一條魚，不只是一種食材。\n它也可能是海洋中的生命、漁民的漁獲、市場中的商品、地方的食材，以及餐桌上的記憶。"
+        "染布讓你們看見地方生活留下的顏色，接下來，要認識的是藏在地方日常裡的故事。\n\n小小的飛魚卵，竟與八斗子有著一段鮮少人知道的連結。這段關係，究竟從何而來？\n\n這次的線索，就藏在老師的介紹與你們親手製作的香腸裡。"
       ],
       "storyImg": [
-        "https://lh3.googleusercontent.com/pw/AP1GczOqcP0klmYyh4BTgpSTDxFVqFoYSsqkRbUs4JA49e7MsXJUUON2b_kl-b6VnOflFgkP2CT8W4GW574TrkU6dhRqKztrHr8nfnUIdLkVw8vtZuKeAF2qFVwy79iFoDgQEjHiIOTiQkNi1nQ1-nHN6Mo=w721-h901-s-no-gm?authuser=0",
-        ""
+        "assets/flying-fish-roe/story-v2.png"
       ],
-      "landmarkImg": "https://lh3.googleusercontent.com/pw/AP1GczOjwPf1VYJl_BQceh5mAYkiTp04gvaz9x6mmX3d2oItw7rawPKA9QXcpSULtpJ-HK71Q68Q6BFg_Nal9u6yj3f8bQ0bdARCE9MTf6Ckjf2MT8qveW8kWG1--szvBQ5xf_ujetqHjhJ86vm5sXC-46o=w721-h901-s-no-gm?authuser=0",
-      "landmarkText": "<div style=\"background-color: rgb(0, 0, 0); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\">請依指示完成白帶魚觀察、料理與用餐，完成後再開啟!</div>",
-      "landmarkBtnText": "吃飽了!",
-      "puzzleType": "choice",
-      "puzzleDesc": "<div style=\"background-color: rgb(0, 0, 0); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\">如果你送上來的調查報告只寫：</div><div style=\"background-color: rgb(0, 0, 0); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\">「白帶魚，是可以料理食用的魚。」這份報告最大的問題是什麼？</div>",
-      "puzzleOptions": [
-        {
-          "label": "報告內容太少",
-          "img": ""
-        },
-        {
-          "label": "沒寫白帶魚的價格",
-          "img": ""
-        },
-        {
-          "label": "只看見食物身分，忽略生物、漁業與地方生活的關係",
-          "img": ""
-        },
-        {
-          "label": "沒有料理的照片",
-          "img": ""
-        }
-      ],
-      "answer": "C",
-      "inputPlaceholder": "你的回應",
-      "submitBtnText": "報告不能隨便寫",
-      "errorMsg": "你只懂得吃??還會什麼?",
-      "postStory": "<div style=\"background-color: rgb(0, 0, 0); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;\"><div>地方殘響已記錄。</div><div>你已確認：理解一個地方，不只是知道它有什麼，而是知道人如何與它建立關係。</div><div>上午訓練完成。</div><div>下午開始，不再只有眼前正在發生的事情可以調查。</div></div>",
-      "postStoryImg": "https://lh3.googleusercontent.com/pw/AP1GczOa2N5B9x9l8XvtpL4K0YMsga2goFQhGX17Qi29I4Htm1kDjuIStsplzeXRIf8-tfusiKnFff8Cdn8emK6F18Uambf-iYD1IA4ugWS3RC-VEfmUYPOyNlPI-me3-dGGnsdGzZFuTEnG9pq0W4eYuho=w721-h901-s-no-gm?authuser=0",
-      "totemDesc": "殘響 II 海味\n理解一個地方，不只是知道它有什麼，而是知道人如何與它建立關係。",
-      "totemImg": "https://lh3.googleusercontent.com/pw/AP1GczOa2N5B9x9l8XvtpL4K0YMsga2goFQhGX17Qi29I4Htm1kDjuIStsplzeXRIf8-tfusiKnFff8Cdn8emK6F18Uambf-iYD1IA4ugWS3RC-VEfmUYPOyNlPI-me3-dGGnsdGzZFuTEnG9pq0W4eYuho=w721-h901-s-no-gm?authuser=0",
-      "puzzleImg": "https://lh3.googleusercontent.com/pw/AP1GczOjwPf1VYJl_BQceh5mAYkiTp04gvaz9x6mmX3d2oItw7rawPKA9QXcpSULtpJ-HK71Q68Q6BFg_Nal9u6yj3f8bQ0bdARCE9MTf6Ckjf2MT8qveW8kWG1--szvBQ5xf_ujetqHjhJ86vm5sXC-46o=w721-h901-s-no-gm?authuser=0",
-      "postStoryBtnText": "殘響 II 海味",
+      "landmarkImg": "assets/flying-fish-roe/task-v1.png",
+      "landmarkText": "跟隨老師的引導完成製作，並仔細聆聽：漁民如何取得飛魚卵？",
+      "landmarkBtnText": "完成體驗，開始解謎",
+      "puzzleType": "text",
+      "puzzleDesc": "老師提到，漁民會將特製的「草包」放在海面上，讓飛魚在上面產卵，再採集附著的魚卵。<br><br>取得這些魚卵，與烏魚子的取得截然不同。<br><br>如果把剖腹取卵比喻為「剖腹產」，那麼飛魚卵是什麼產？<br><br>請輸入三個字。",
+      "puzzleOptions": [],
+      "answer": "自然產",
+      "inputPlaceholder": "請輸入三個字",
+      "submitBtnText": "提交答案",
+      "errorMsg": "再想想老師介紹的採卵方式，也可以查看提示。",
+      "postStory": "沒錯，答案就是「自然產」！<br><br>這是幫助記憶的比喻：飛魚在體外產卵，魚卵附著在漁民準備的草包上，再由漁民採集，不需要殺死母魚取卵。<br><br>從染布留下的顏色，到親手製作的香腸，你們逐漸發現：地方的故事，不只寫在紀錄裡，也藏在人們的生活與餐桌上。",
+      "postStoryImg": "assets/flying-fish-roe/echo-v1.png",
+      "totemDesc": "殘響 II：海的贈禮\n小小的魚卵，連起海洋、漁人的智慧與八斗子的餐桌。\n\n你帶走的不只是一份料理，還有今天親手參與的地方記憶。",
+      "totemImg": "assets/flying-fish-roe/echo-v1.png",
+      "puzzleImg": "assets/flying-fish-roe/task-v1.png",
+      "postStoryBtnText": "殘響 II：海的贈禮",
       "schemaVersion": 1,
       "enabled": true,
       "answers": [
-        "C"
+        "自然產"
       ],
       "hints": [
-        "牠不只出現在餐桌上，也出現在海中與漁業生活裡。",
-        "同一件事物，在不同關係裡會擁有不同意義。",
-        "調查員不能只記錄「可食用」，還要理解地方如何與它建立關係。"
+        "想想老師介紹的草包，是拿來捕魚，還是讓飛魚產卵？",
+        "飛魚自行把卵產在草包上，不需要剖腹取卵。",
+        "與「剖腹產」相對的說法是「自○產」。"
       ],
       "dependsOnBranch": "",
       "gpsEnabled": false,
