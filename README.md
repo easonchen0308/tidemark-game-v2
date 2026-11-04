@@ -6,7 +6,7 @@
 
 在 GitHub 專案的 Settings → Pages，將來源設為 `Deploy from a branch`，選擇 `main` 分支與 `/(root)` 資料夾。發布網址會是：
 
-`https://easonchen0308.github.io/yuchao-game/`
+`https://easonchen0308.github.io/tidemark-game-v2/`
 
 ## 行為
 
