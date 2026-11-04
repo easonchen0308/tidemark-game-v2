@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>絕對傳奇：潮痕試煉</title>
+    <title>絕對傳奇：漁潮試煉</title>
     
     <!-- iOS Web App -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="潮痕試煉">
+    <meta name="apple-mobile-web-app-title" content="漁潮試煉">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Noto+Serif+TC:wght@300;400;700&display=swap" rel="stylesheet">
@@ -1131,7 +1131,7 @@
     <!-- 探險隊登記與登入 (新增) -->
     <div id="login-dialog" class="glass-card" style="text-align: center;">
         <h3 style="color: var(--accent-yellow); margin-bottom: 12px; letter-spacing: 2px;">探險隊登入</h3>
-        <p style="font-size: 0.9rem; margin-bottom: 20px; color: var(--text-dim); line-height: 1.6;">請輸入隊伍名稱，以啟動「潮痕試煉」探險旅程：</p>
+        <p style="font-size: 0.9rem; margin-bottom: 20px; color: var(--text-dim); line-height: 1.6;">請輸入隊伍名稱，以啟動「漁潮試煉」探險旅程：</p>
         <input type="text" id="team-name-input" maxlength="40" autocomplete="nickname" style="width: 100%; padding: 12px; background: rgba(0,0,0,0.5); border: 1px solid var(--glass-border); color: white; text-align: center; border-radius: 12px; margin-bottom: 20px; font-size: 1.2rem; letter-spacing: 1px;" placeholder="請輸入隊伍名稱">
         <div style="display: flex; flex-direction: column; gap: 10px;">
             <div style="display: flex; gap: 10px;">
@@ -1223,8 +1223,8 @@
     <!-- 4. 任務列表 -->
     <section id="mission-screen" class="screen">
         <div class="mission-header">
-            <p id="mission-header-kicker">Tidemark Log</p>
-            <h2 id="mission-header-title">絕對傳奇：潮痕試煉</h2>
+            <p id="mission-header-kicker">Yuchao Log</p>
+            <h2 id="mission-header-title">絕對傳奇：漁潮試煉</h2>
         </div>
         <!-- 任務分類切換頁籤 (Tab Bar) -->
         <div class="quest-tabs" style="display: flex; background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border); padding: 4px; border-radius: 20px; margin-bottom: 20px; gap: 4px; width: 100%; max-width: 480px; margin-left: auto; margin-right: auto; box-sizing: border-box;">
@@ -1751,8 +1751,8 @@
             document.title = (globalConfig.titleTop ? globalConfig.titleTop + '之' : '') + (globalConfig.titleMain || '杜勒日記') + ' - 實境解謎';
             const missionHeaderKicker = document.getElementById('mission-header-kicker');
             const missionHeaderTitle = document.getElementById('mission-header-title');
-            if (missionHeaderKicker) missionHeaderKicker.innerText = globalConfig.titleTop || 'Tidemark Log';
-            if (missionHeaderTitle) missionHeaderTitle.innerText = globalConfig.titleMain || '絕對傳奇：潮痕試煉';
+            if (missionHeaderKicker) missionHeaderKicker.innerText = globalConfig.titleTop || 'Yuchao Log';
+            if (missionHeaderTitle) missionHeaderTitle.innerText = globalConfig.titleMain || '絕對傳奇：漁潮試煉';
             const successGameTitleEl = document.getElementById('success-game-title-text');
             if (successGameTitleEl) {
                 const gameTitle = [globalConfig.titleTop, globalConfig.titleMain].filter(Boolean).join('之') || '守潮藏寶圖之外木山海岸安全航程';

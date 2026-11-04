@@ -17,9 +17,9 @@
 function getGameSlug() {
     if (typeof window !== 'undefined') {
         const params = new URLSearchParams(window.location.search);
-        return params.get('game') || 'tidemark';
+        return params.get('game') || 'yuchao';
     }
-    return 'tidemark';
+    return 'yuchao';
 }
 
 const SLUG = getGameSlug();

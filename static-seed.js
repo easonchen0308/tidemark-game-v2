@@ -1,8 +1,8 @@
-(function seedStaticTidemarkGame() {
+(function seedStaticYuchaoGame() {
     const game = window.TIDEMARK_GAME;
     if (!game || !game.config || !Array.isArray(game.puzzles)) return;
 
-    const slug = 'tidemark';
+    const slug = 'yuchao';
     const seedVersionKey = `game_${slug}_github_pages_seed`;
     const seedVersion = String(game.version || '1');
     const currentVersion = localStorage.getItem(seedVersionKey);

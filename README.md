@@ -1,4 +1,4 @@
-# 絕對傳奇：潮痕試煉｜GitHub Pages 前台
+# 絕對傳奇：漁潮試煉｜GitHub Pages 前台
 
 這是明天活動可用的 GitHub Pages 單頁版。它不需要 Render、Node.js 或資料庫。
 
@@ -6,7 +6,7 @@
 
 在 GitHub 專案的 Settings → Pages，將來源設為 `Deploy from a branch`，選擇 `main` 分支與 `/(root)` 資料夾。發布網址會是：
 
-`https://easonchen0308.github.io/tidemark-game/`
+`https://easonchen0308.github.io/yuchao-game/`
 
 ## 行為
 
