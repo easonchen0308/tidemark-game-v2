@@ -1,6 +1,6 @@
 # 絕對傳奇：漁潮試煉｜GitHub Pages 前台
 
-這是明天活動可用的 GitHub Pages 單頁版。它不需要 Render、Node.js 或資料庫。
+這是11/7活動可用的 GitHub Pages 單頁版。它不需要 Render、Node.js 或資料庫。
 
 ## 發布
 
